@@ -5,8 +5,8 @@ from tqdm import tqdm
 from collections import Counter
 
 #initializing praw reddit
-reddit = praw.Reddit(client_id='i-U1iHsMkS0VAA',
-                client_secret='JC1itv-x9xYFwdS2wMYf9dDgAFE',
+reddit = praw.Reddit(client_id='****************',
+                client_secret='*****************',
                 user_agent='reddit_crawler')
 
 def scrape_subreddit_mentions(base_subreddit):
